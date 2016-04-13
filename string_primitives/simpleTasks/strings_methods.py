@@ -23,4 +23,9 @@ def dividers_find():
     for divider in unique_dividers:
         print(divider)
 
-dividers_find()
+while True:
+    response = input('If you want to exit application, please type "exit"')
+    if response == 'exit':
+        break
+    else:
+        dividers_find()
